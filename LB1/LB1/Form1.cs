@@ -63,7 +63,7 @@ namespace LB1
                     I = (c.R + c.G + c.B) / 3;
                     sum = sum + I;
                     if (minI > I) minI = I;
-                    if (maxI > I) maxI = I;
+                    if (maxI < I) maxI = I;
                 }
             }
             srI = sum / (b.Width * b.Height);
@@ -93,7 +93,7 @@ namespace LB1
 			pictureBox1.Image = b;
 		}
 
-		private void Button4_Click_1(object sender, EventArgs e) //Градация серого!!!!!
+		private void Button4_Click_1(object sender, EventArgs e) //Градация серого!!!!! Сильно отличаетс от того что в примере
         {
             Color c, newC;
             int newR, newG, newB;   
@@ -109,13 +109,13 @@ namespace LB1
                     newB = (int)(k * c.B);
 
                     if (newR > 255) newR = 255;
-                    if (newR > 0) newR = 0;
+                    if (newR < 0) newR = 0; // Тут и везде тоже біл другой знак но я поменял, опять таки хз на сколько првильно
 
                     if (newG > 255) newG = 255;
-                    if (newG > 0) newG = 0;
+                    if (newG < 0) newG = 0;
 
                     if (newB > 255) newG=255;
-                    if (newB > 0) newG = 0;
+                    if (newB < 0) newG = 0;
                     
                     newC = Color.FromArgb(255, newR, newG, newB);
 
@@ -144,13 +144,13 @@ namespace LB1
                     newB = (int)(k * c.B);
 
                     if (newR > 255) newR = 255;
-                    if (newR > 0) newR = 0;
+                    if (newR < 0) newR = 0;
 
                     if (newG > 255) newG = 255;
-                    if (newG > 0) newG = 0;
+                    if (newG < 0) newG = 0;
 
                     if (newB > 255) newG = 255;
-                    if (newB > 0) newG = 0;
+                    if (newB < 0) newG = 0;
 
                     newC = Color.FromArgb(255, newR, newG, newB);
 
@@ -169,7 +169,7 @@ namespace LB1
 			return Color.FromArgb(r, g, b);
 		}
 
-		private void Button6_Click_1(object sender, EventArgs e) //Градиент
+		private void Button6_Click_1(object sender, EventArgs e) //Градиент !!!Я как бы хз но выше уже было
 		{
 			Color c, newC;
 			double k = Convert.ToDouble(textBox4.Text);
