@@ -1,0 +1,11 @@
+C:\Users\anastasia.s\source\repos\LB1\LB1\bin\Debug\LB1.exe.config
+C:\Users\anastasia.s\source\repos\LB1\LB1\bin\Debug\LB1.exe
+C:\Users\anastasia.s\source\repos\LB1\LB1\bin\Debug\LB1.pdb
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.csproj.AssemblyReference.cache
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.csproj.SuggestedBindingRedirects.cache
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.Form1.resources
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.Properties.Resources.resources
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.csproj.GenerateResource.cache
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.csproj.CoreCompileInputs.cache
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.exe
+C:\Users\anastasia.s\source\repos\LB1\LB1\obj\Debug\LB1.pdb
